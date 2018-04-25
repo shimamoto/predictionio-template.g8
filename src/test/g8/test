@@ -1,0 +1,5 @@
+#> g8Scaffold recommender
+#> test
+#$ delete src/main/scala
+#> g8Scaffold e-recommender
+> test
