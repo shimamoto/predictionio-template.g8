@@ -1,12 +1,21 @@
-A [Giter8][g8] template for ...!
+# predictionio-template.g8
 
-Template license
-----------------
-Written in <YEAR> by <AUTHOR NAME> <AUTHOR E-MAIL ADDRESS>
-[other author/contributor lines as appropriate]
+** This template is currently experimental. **
 
-To the extent possible under law, the author(s) have dedicated all copyright and related
-and neighboring rights to this template to the public domain worldwide.
-This template is distributed without any warranty. See <http://creativecommons.org/publicdomain/zero/1.0/>.
+Giter8 template for generating a new Engine from the PredictionIO official templates.
 
-[g8]: http://www.foundweekends.org/giter8/
+## Running
+
+First, create a project:
+
+```sh
+$ sbt new shimamoto/predictionio-template.g8
+```
+
+Then go to your project directory, and type `g8Scaffold <template>` from sbt to create an engine template:
+
+```sh
+$ cd myengine
+$ sbt
+> g8Scaffold recommender
+```
